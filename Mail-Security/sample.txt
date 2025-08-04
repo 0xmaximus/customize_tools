@@ -1,0 +1,21 @@
+Not shown: 982 filtered ports
+PORT     STATE SERVICE       VERSION
+25/tcp   open  smtp          Microsoft Exchange smtpd
+80/tcp   open  http          Microsoft IIS httpd 10.0
+81/tcp   open  http          Microsoft IIS httpd 10.0
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+443/tcp  open  ssl/https
+444/tcp  open  snpp?
+445/tcp  open  microsoft-ds?
+465/tcp  open  smtp          Microsoft Exchange smtpd
+587/tcp  open  smtp          Microsoft Exchange smtpd
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+808/tcp  open  ccproxy-http?
+1801/tcp open  msmq?
+2103/tcp open  msrpc         Microsoft Windows RPC
+2105/tcp open  msrpc         Microsoft Windows RPC
+2107/tcp open  msrpc         Microsoft Windows RPC
+2525/tcp open  smtp          Microsoft Exchange smtpd
+6001/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+Service Info: Host: Exchange.lab.local; OS: Windows; CPE: cpe:/o:microsoft:windows
